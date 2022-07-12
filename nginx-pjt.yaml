@@ -76,7 +76,7 @@ spec:
   - http:
       paths:
       - path: "/"
-        pathType: Prepix
+        pathType: Prefix
         backend:
           service:
             name: nginx-service
